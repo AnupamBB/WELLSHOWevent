@@ -527,32 +527,32 @@ main .post-content .post-title a{
 
 /* ----------------- Footer --------------------- */
 
-footer.footer{
+.contact.contact{
     height: 100%;
     background: var(--bg-color);
     position: relative;
 }
 
-footer.footer .container{
+.contact.contact .container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
-footer.footer .container > div{
+.contact.contact .container > div{
     flex-grow: 1;
     flex-basis: 0;
     padding: 3rem .9rem;
 }
 
-footer.footer .container h2{
+.contact.contact .container h2{
     color: var(--white);
 }
 
-footer.footer .newsletter .form-element{
+.contact.contact .newsletter .form-element{
    color: aliceblue;
 }
 
-footer.footer .newsletter .form-element input{
+.contact.contact .newsletter .form-element input{
     padding: .5rem .7rem;
     border: none;
     background: transparent;
@@ -562,25 +562,25 @@ footer.footer .newsletter .form-element input{
     width: 74%;
 }
 
-footer.footer .newsletter .form-element span{
+.contact.contact .newsletter .form-element span{
     background: var(--sky);
     padding: .5rem .7rem;
     cursor: pointer;
 }
 
-footer.footer .instagram div > img{
+.contact.contact .instagram div > img{
     display: inline-block;
     width: 25%;
     height: 50%;
     margin: .3rem .4rem;
 }
 
-footer.footer .follow div i{
+.contact.contact .follow div i{
     color: var(--white);
     padding: 0 .4rem;
 }
 
-footer.footer .rights{
+.contact.contact .rights{
     justify-content: center;
     font-family: var(--Josefin);
 }
@@ -589,17 +589,17 @@ footer.footer .rights h4 a{
     color: var(--white);
 }
 
-footer.footer .move-up{
+.contact.contact .move-up{
     position: absolute;
-    right: 6%;
-    top: 50%;
+    right: 20px;
+    bottom: 30px;
 }
 
-footer.footer .move-up span{
+.contact.contact .move-up span{
     color: var(--midnight);
 }
 
-footer.footer .move-up span:hover{
+.contact.contact .move-up span:hover{
     color: var(--white);
     cursor: pointer;
 }
@@ -619,7 +619,7 @@ footer.footer .move-up span:hover{
         display: none !important;
     }
 
-    footer.footer .container{
+    .contact.contact .container{
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -643,7 +643,7 @@ footer.footer .move-up span:hover{
         grid-template-columns: 100%;
     }
 
-    footer.footer .container{
+    .contact.contact .container{
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -676,6 +676,12 @@ footer.footer .move-up span:hover{
     nav .toggle-collapse{
         width: 80% !important;
     }
+    /* .contact.contact .move-up{
+        position: absolute;
+        right: 3%;
+        top: 80%;
+    } */
+
 
 }
 
